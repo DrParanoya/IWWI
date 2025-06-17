@@ -1,6 +1,6 @@
 # 🚀 IWWI – Meteor Addon for DonutSMP (v1.21.4)
 
-Welcome to **IWWI** – the ultimate strategic automation addon built for the [Meteor Client](https://meteorclient.com/) on **Minecraft 1.21.5**, specifically designed for **DonutSMP**. Dominate the underground meta, manage your resources with precision, and stay 10 steps ahead of your enemies!
+Welcome to **IWWI** – the ultimate strategic automation addon built for the [Meteor Client](https://meteorclient.com/) on **Minecraft 1.21.4**, specifically designed for **DonutSMP**. Dominate the underground meta, manage your resources with precision, and stay 10 steps ahead of your enemies!
 
 > ⚠️ Requires Meteor Client 1.21.4 and Baritone for some features  
 > 🌐 Supports optional **Discord Webhook** notifications for key modules
