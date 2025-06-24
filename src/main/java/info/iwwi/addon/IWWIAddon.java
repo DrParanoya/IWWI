@@ -5,6 +5,7 @@ import com.mojang.logging.LogUtils;
 import info.iwwi.addon.modules.AutoMineDownRTP;
 import info.iwwi.addon.modules.AutoSpawnerBreakerBaritone;
 import info.iwwi.addon.modules.AutoSpawnerChestClicker;
+import info.iwwi.addon.modules.AutoTPAModule;
 import info.iwwi.addon.modules.BlockESP;
 import info.iwwi.addon.modules.ElytraAutoFly;
 import info.iwwi.addon.modules.MineToYMinus50;
@@ -28,6 +29,7 @@ public void onInitialize() {
     Modules.get().add(new MineToYMinus50());
     Modules.get().add(new AutoMineDownRTP());
     Modules.get().add(new AutoSpawnerBreakerBaritone());
+    Modules.get().add(new AutoTPAModule());
     }
 
     @Override
