@@ -68,6 +68,14 @@ Can help uncover bedrock-layer vaults or trap setups.
 
 ---
 
+### 🤝 AutoTPA/TPAHere
+Automates the process of sending repeated **/tpa** or **/tpahere** requests to a specified player.  
+Configure the target nickname, delay between requests, and command type. The module will send 15 requests in rapid succession (with your chosen delay), pause for 2–6 seconds, and repeat the cycle until deactivated.  
+
+> **❗ Note:** On DonutSMP, you must **disable TPA confirm menus** in your server settings for this module to work automatically.
+
+---
+
 ## 💬 Webhook Integration
 
 Set up a Discord webhook in a private channel to receive notifications from:
