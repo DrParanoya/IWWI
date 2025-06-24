@@ -79,6 +79,11 @@ Perfect for catching underpriced deals on valuable items like Elytras or enchant
 > - All Items Mode ignores the selected item and attempts to purchase *any* item listed for a price at or below your configured maximum.
 
 ---
+### 🗿 Stone ESP
+A module that will find player placed blocks and alert you by making a esp around it and with chosable chat feedback
+- **False detection:** there can be some false detection sometimes if there is specific structeres
+- **Where to use:** The stone esp is ment to be used in the air using a elytra or just over the ground in general
+---
 
 ## 🔧 Setup & Installation
 

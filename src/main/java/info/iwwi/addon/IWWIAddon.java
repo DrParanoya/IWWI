@@ -11,6 +11,7 @@ import info.iwwi.addon.modules.MineToYMinus50;
 import info.iwwi.addon.modules.StashFinder;
 import info.iwwi.addon.modules.AutoTPAModule;
 import info.iwwi.addon.modules.AutoAHSniper;
+import info.iwwi.addon.modules.StoneESP;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -32,6 +33,7 @@ public void onInitialize() {
     Modules.get().add(new AutoSpawnerBreakerBaritone());
     Modules.get().add(new AutoTPAModule());
     Modules.get().add(new AutoAHSniper());
+    Modules.get().add(new StoneESP());
     }
 
     @Override
