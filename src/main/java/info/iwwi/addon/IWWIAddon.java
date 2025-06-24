@@ -5,11 +5,12 @@ import com.mojang.logging.LogUtils;
 import info.iwwi.addon.modules.AutoMineDownRTP;
 import info.iwwi.addon.modules.AutoSpawnerBreakerBaritone;
 import info.iwwi.addon.modules.AutoSpawnerChestClicker;
-import info.iwwi.addon.modules.AutoTPAModule;
 import info.iwwi.addon.modules.BlockESP;
 import info.iwwi.addon.modules.ElytraAutoFly;
 import info.iwwi.addon.modules.MineToYMinus50;
 import info.iwwi.addon.modules.StashFinder;
+import info.iwwi.addon.modules.AutoTPAModule;
+import info.iwwi.addon.modules.AutoAHSniper;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -30,6 +31,7 @@ public void onInitialize() {
     Modules.get().add(new AutoMineDownRTP());
     Modules.get().add(new AutoSpawnerBreakerBaritone());
     Modules.get().add(new AutoTPAModule());
+    Modules.get().add(new AutoAHSniper());
     }
 
     @Override
