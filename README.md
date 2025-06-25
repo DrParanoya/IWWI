@@ -91,6 +91,11 @@ Automates the process of buying shulker boxes from the shop and managing orders 
 
 ---
 
+### 🎯 AntiTrap
+Prevents rendering of trap-related entities like armor stands, item frames, paintings, and leash knots. Useful for avoiding traps on DonutSMP.
+
+---
+
 ## 🔧 Setup & Installation
 
 1. 📥 Download the latest build of **IWWI** from the [official website](http://iwwi.info) tab.
