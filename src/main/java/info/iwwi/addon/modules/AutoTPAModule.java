@@ -43,8 +43,8 @@ public class AutoTPAModule extends Module {
     private boolean inPause = false;
     private long pauseStartTime = 0;
     private static final int MESSAGES_PER_CYCLE = 15;
-    private static final long PAUSE_MIN_MS = 2000;
-    private static final long PAUSE_MAX_MS = 6000;
+    private static final long PAUSE_MIN_MS = 1500;
+    private static final long PAUSE_MAX_MS = 3500;
     private long pauseDuration = 0;
 
     public AutoTPAModule() {
