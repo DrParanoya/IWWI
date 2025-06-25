@@ -12,6 +12,7 @@ import info.iwwi.addon.modules.StashFinder;
 import info.iwwi.addon.modules.AutoTPAModule;
 import info.iwwi.addon.modules.AutoAHSniper;
 import info.iwwi.addon.modules.AutoShulker;
+import info.iwwi.addon.modules.AntiTrap;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -34,6 +35,7 @@ public void onInitialize() {
     Modules.get().add(new AutoTPAModule());
     Modules.get().add(new AutoAHSniper());
     Modules.get().add(new AutoShulker());
+    Modules.get().add(new AntiTrap());
     }
 
     @Override
