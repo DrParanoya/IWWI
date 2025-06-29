@@ -147,7 +147,7 @@ public class MineToYMinus50 extends Module {
                 rtpStage++;
                 rtpStageStart = now;
             } else if (rtpStage == 2 && stageElapsed >= postRtpDelaySeconds.get() * 1000L) {
-                mc.player.networkHandler.sendChatMessage("#goto ~ " + targetY.get() + " ~");
+                mc.player.networkHandler.sendChatMessage("#goto " + targetY.get());
                 miningStarted = true;
                 tunnelStarted = false;
                 triggeredRtp = false;
@@ -159,7 +159,7 @@ public class MineToYMinus50 extends Module {
         }
 
         if (!miningStarted && !tunnelStarted && playerY > targetY.get()) {
-            mc.player.networkHandler.sendChatMessage("#goto ~ " + targetY.get() + " ~");
+            mc.player.networkHandler.sendChatMessage("#goto " + targetY.get());
             miningStarted = true;
         }
 
